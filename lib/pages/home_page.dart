@@ -42,9 +42,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
-                      height: 24.0,
-                    ),
+                    SizedBox(height: 24.0),
                     CircleAvatar(
                       backgroundImage: NetworkImage(
                         "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -52,9 +50,7 @@ class HomePage extends StatelessWidget {
                       backgroundColor: Colors.amber,
                       radius: 48.0,
                     ),
-                    SizedBox(
-                      height: 24.0,
-                    ),
+                    SizedBox(height: 24.0),
                     Text(
                       "Hira Riaz",
                       style: TextStyle(
@@ -71,9 +67,7 @@ class HomePage extends StatelessWidget {
                         color: Colors.black87,
                       ),
                     ),
-                    SizedBox(
-                      height: 24.0,
-                    ),
+                    SizedBox(height: 24.0),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -188,7 +182,7 @@ class HomePage extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color.fromARGB(255, 213, 211, 211),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           child: Icon(
@@ -222,6 +216,136 @@ class HomePage extends StatelessWidget {
                     ),
                     Text(
                       "\$150",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16.0,
+                        color: Color(0xff1b263b),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Container(
+                padding: const EdgeInsets.all(16.0),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.25),
+                      offset: const Offset(0, 7),
+                      blurRadius: 16.0,
+                    ),
+                  ],
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(8.0),
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 219, 215, 215),
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          child: Icon(
+                            Icons.arrow_downward,
+                            color: Color(0xff1b263b),
+                            size: 24.0,
+                          ),
+                        ),
+                        SizedBox(width: 16.0),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Receive",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16.0,
+                                color: Color(0xff1b263b),
+                              ),
+                            ),
+                            Text(
+                              "Receiving Payment from Clients",
+                              style: TextStyle(
+                                color: Colors.black54,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Text(
+                      "\$250",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16.0,
+                        color: Color(0xff1b263b),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Container(
+                padding: const EdgeInsets.all(16.0),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.25),
+                      offset: const Offset(0, 7),
+                      blurRadius: 16.0,
+                    ),
+                  ],
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(8.0),
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 227, 223, 223),
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          child: Icon(
+                            Icons.attach_money,
+                            color: Color(0xff1b263b),
+                            size: 24.0,
+                          ),
+                        ),
+                        SizedBox(width: 16.0),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Lean",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16.0,
+                                color: Color(0xff1b263b),
+                              ),
+                            ),
+                            Text(
+                              "Lean Payment",
+                              style: TextStyle(
+                                color: Colors.black54,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Text(
+                      "\$400",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16.0,
