@@ -136,49 +136,35 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 24.0),
-              Container(
-                padding: const EdgeInsets.all(16.0),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(16.0),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.25),
-                      offset: const Offset(0, 7),
-                      blurRadius: 16.0,
-                    ),
-                  ],
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Row(
-                      children: [
-                        Text(
-                          "Overview",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18.0,
-                            color: Color(0xff1b263b),
-                          ),
-                        ),
-                        SizedBox(width: 8.0),
-                        Icon(
-                          Icons.notifications,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Overview",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18.0,
                           color: Color(0xff1b263b),
-                          size: 18.0,
                         ),
-                      ],
-                    ),
-                    Text(
-                      "Sept 13, 2020",
-                      style: TextStyle(
-                        color: Colors.black54,
-                        fontSize: 14.0,
                       ),
+                      SizedBox(width: 8.0),
+                      Icon(
+                        Icons.notifications,
+                        color: Color(0xff1b263b),
+                        size: 18.0,
+                      ),
+                    ],
+                  ),
+                  Text(
+                    "Sept 13, 2020",
+                    style: TextStyle(
+                      color: Colors.black54,
+                      fontSize: 14.0,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
               SizedBox(height: 16.0),
               Container(
